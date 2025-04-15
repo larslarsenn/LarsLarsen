@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f4f0;
+    color: #1d1d1d;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #1d1160;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #f9a01b;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    background-image: url('https://cdn.nba.com/manage/2023/04/phoenix-suns-huddle-scaled.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4em 2em;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px #000;
+  }
+  
+  .section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  .section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: #e56020;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 2em;
+    background-color: #1d1160;
+    color: #f9a01b;
+  }
+  
