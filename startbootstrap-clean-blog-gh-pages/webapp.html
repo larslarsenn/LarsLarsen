@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Basketball Joke Generator</title>
+  <link rel="stylesheet" href="css/jokes.css"
+</head>
+<body>
+  <div class="container">
+    <h1>🏀 Basketball Joke Generator 😂</h1>
+    <p id="joke">Click the button to hear a slam dunk joke!</p>
+    <button onclick="tellJoke()">Get a Joke</button>
+  </div>
+
+  <script>
+    const jokes = [
+      "Why can't basketball players go on vacation? They'd get called for traveling!",
+      "Why was Cinderella so bad at basketball? She always ran away from the ball.",
+      "What do you call a basketball team that loves donuts? Dunkin' Donuts!",
+      "Why did the basketball team go to the bank? To get their bounce checks!",
+      "Why was the basketball court wet? Because the players dribbled all over it.",
+      "What do you call a hamster playing basketball? A ball handler!",
+      "Why did the hoop get invited to the party? Because it was a real basket case!"
+    ];
+
+    function tellJoke() {
+      const jokeElement = document.getElementById("joke");
+      const randomIndex = Math.floor(Math.random() * jokes.length);
+      jokeElement.textContent = jokes[randomIndex];
+    }
+  </script>
+</body>
+</html>
